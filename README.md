@@ -36,11 +36,11 @@ In order to see the project with in its full potential the MongoDB way, it needs
 
 Parallel run of server and frontend
 
-### MongoDB folder
+### Backend <br />
 npm install<br />
 npm index.js<br />
 
-### Frontend folder<br />
+### Frontend <br />
 npm install<br />
 npm run serve<br />
 
