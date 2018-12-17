@@ -21,3 +21,5 @@ Shop Items
 
 Endpoints:
 
+Add Theater: '/theater',{name:*String*,totalSales:*Number*,image:*String*}
+Add Movie: '/movie',{Name:*String*,Poster:*String*,Year:*Number*,Rating:*Number*,Genre:*Array*,Director:*String*
