@@ -1,0 +1,9 @@
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+.*cache
+*.log
+cache/*
