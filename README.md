@@ -12,7 +12,7 @@ Ava tests are included for unit and end-to-end.
 
 ## MongoDB way  <br />
 
-In order to see the project with in its full potential it needs at least couple of entries from each class in the MongoDB document. 
+In order to see the project with its full potential it needs at least couple of entries from each class in the MongoDB document. 
 
 ### Hierarchical sort of Classes:
 
