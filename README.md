@@ -14,9 +14,9 @@ In order to see the project with in its full potential the MongoDB way, it needs
 
 ### Hierarchical sort of Classes:
 
-⋅⋅* Theater<br />
+⋅⋅*Theater<br />
 ⋅⋅* Movie<br />
-⋅⋅* Attendee<br />
+⋅* Attendee<br />
 ⋅⋅* Shop Items<br />
 
 ### Endpoints to create classes(post):
