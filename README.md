@@ -39,11 +39,11 @@ Parallel run of server and frontend
 ### MongoDB folder
 npm install<br />
 npm index.js<br />
-<br />
+
 ### Frontend folder<br />
 npm install<br />
 npm run serve<br />
 
 <br />
-* This project is being developed soon to run with Docker *
+*This project is being developed soon to run with Docker*
 
