@@ -6,12 +6,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "mongoose": "^5.3.12"
   },
   "devDependencies": {
     "ava": "^0.25.0",
     "body-parser": "^1.18.3",
-    "chalk": "^2.4.1",
     "flatted": "^2.0.0",
     "nyc": "^13.1.0",
     "pdfkit": "^0.8.3",
