@@ -11,7 +11,7 @@ Ava tests are included for unit and end-to-end.
 
 
 ## MongoDB way  <br />
-————————<br />
+
 In order to see the project with in its full potential the MongoDB way, it needs at least couple of entries from each class. 
 
 ### Hierarchical sort of Classes:
@@ -33,7 +33,7 @@ In order to see the project with in its full potential the MongoDB way, it needs
 **Add a Item to a Person:**'/person/add-item',{personId:'*PersonId*',itemId:*ItemId*})
 
 ## Run <br />
-————————<br />
+
 Parallel run of server and frontend
 
 ### MongoDB folder
@@ -45,5 +45,5 @@ npm install<br />
 npm run serve<br />
 
 <br />
-*This project is being developed soon to run with Docker*
+* This project is being developed soon to run with Docker *
 
