@@ -31,3 +31,15 @@ In order to see the project with in its full potential the MongoDB way, it needs
 **Add Movies to a Theater:**'/theater/*TheaterId*/add-movie'{movieId:*MovieId*}<br />
 **Add a Person to a Movie:** '/movie/*MovieId*/addPerson',{personId:*PersonId*}<br />
 **Add a Item to a Person:**'/person/add-item',{personId:'*PersonId*',itemId:*ItemId*})
+
+## Run <br />
+————————<br />
+Parallel run of server and frontend
+
+###MongoDB folder
+npm install<br />
+npm index.js<br />
+<br />
+###Frontend folder<br />
+npm install<br />
+npm run serve<br />
