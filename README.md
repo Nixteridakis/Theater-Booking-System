@@ -8,7 +8,7 @@ A person can attend a movie and preorder items from the shop. When the ticket is
 The project was initially made to read/write from a local MongoDB document(MongoDB Way folder) but at a later time I have recreated it so that it reads from a local JSON file (JSON way folder). Hence anyone can load and view at in their machine without having to preload any classes in a MongoDB document.
 
 
-MongoDB way  
+MongoDB way  <br />
 ————————
 In order to see the project with in its full potential the MongoDB way, it needs at least couple of entries from each class. 
 
