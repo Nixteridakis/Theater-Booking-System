@@ -20,9 +20,12 @@ Attendee
 Shop Items
 
 Endpoints to create classes(post):
+*Axios requests setup for the root '/'*
 
 Add Theater:  '/theater',{name:*String*,totalSales:*Number*,image:*String*}<br />
 Add Movie:  '/movie',{Name:*String*,Poster:*String*,Year:*Number*,Rating:*Number*,Genre:*Array*,Director:*String*<br />
 Add Person:  '/person',{name:*String*,age:*Number*,shopped:*Array*}<br />
-Add Item:  '/item',{name:*String*,price:*Number*})<br />
-Add Movies to a Theater:'/theater/*TheaterId*/add-movie'{movieId:*MovieId*}
+Add Item:  '/item',{name:*String*,price:*Number*}<br />
+Add Movies to a Theater:'/theater/*TheaterId*/add-movie'{movieId:*MovieId*}<br />
+Add a Person to a Movie: '/movie/*MovieId*/addPerson',{personId:*PersonId*}<br />
+Add a Item to a Person:'/person/add-item',{personId:'*PersonId*',itemId:*ItemId*})
