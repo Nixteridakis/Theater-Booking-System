@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 The people that are watching #{movie.name} are 
+        ul
+        each val in movie.audience
+            li= val.name
