@@ -23,3 +23,4 @@ Endpoints:
 
 Add Theater: '/theater',{name:*String*,totalSales:*Number*,image:*String*}<br />
 Add Movie: '/movie',{Name:*String*,Poster:*String*,Year:*Number*,Rating:*Number*,Genre:*Array*,Director:*String*
+Add attendee: '/person',{name:*String*,age:*Number*,shopped:*Array*}<br />
