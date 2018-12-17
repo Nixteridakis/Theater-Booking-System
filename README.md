@@ -25,7 +25,7 @@ In order to see the project with its full potential it needs at least couple of 
 *Axios requests setup for the root '/'*
 
 **Add Theater:**  '/theater',{name:*String*,totalSales:*Number*,image:*String*}<br />
-**Add Movie:**  '/movie',{Name:*String*,Poster:*String*,Year:*Number*,Rating:*Number*,Genre:*Array*,Director:*String*<br />
+**Add Movie:**  '/movie',{Name:*String*,Poster:*String*,Year:*Number*,Rating:*Number*,Genre:*Array*,Director:*String*}<br />
 **Add Person:**  '/person',{name:*String*,age:*Number*}<br />
 **Add Item:**  '/item',{name:*String*,price:*Number*}<br />
 **Add Movies to a Theater:**'/theater/*TheaterId*/add-movie'{movieId:*MovieId*}<br />
