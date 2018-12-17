@@ -9,7 +9,7 @@ The project was initially made to read/write from a local MongoDB document(Mongo
 
 
 MongoDB way  <br />
-————————
+————————<br />
 In order to see the project with in its full potential the MongoDB way, it needs at least couple of entries from each class. 
 
 Hierarchical sort of Classes:
