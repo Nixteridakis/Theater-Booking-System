@@ -45,5 +45,5 @@ npm install<br />
 npm run serve<br />
 
 <br />
-*This project is being developed soon to run with Docker*
+This project is being developed soon to run with Docker
 
