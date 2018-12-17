@@ -5,7 +5,7 @@ The WTC is a Theater group with different Theaters where each is playing differe
 
 A person can attend a movie and preorder items from the shop. When the ticket is bought the client gets a PDF containing different information about his purchase including the total price (Movie Ticket + Shop Items). 
 
-The project was initially made to read/write from a local MongoDB document but at a later time I have recreated it so that it reads from a local JSON file. Hence anyone can load and view it in their machine without having to add any classes.
+The project was initially made to read/write from a local MongoDB document(MongoDB Way folder) but at a later time I have recreated it so that it reads from a local JSON file (JSON way folder). Hence anyone can load and view it in their machine without having to add any classes.
 
 
 MongoDB way  
