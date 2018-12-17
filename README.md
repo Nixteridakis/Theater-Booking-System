@@ -34,8 +34,6 @@ In order to see the project with in its full potential the MongoDB way, it needs
 
 ## Run <br />
 
-Parallel run of server and frontend
-
 ### Backend <br />
 npm install<br />
 npm index.js<br />
