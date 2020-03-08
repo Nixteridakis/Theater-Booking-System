@@ -8,13 +8,9 @@ const theaterService = require('./services/theater-services')
 
 const app = express()
 
-app.set('view engine', 'pug')
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get('/', (req, res) => {
-    res.render('index')
-})
 
 //theather requests
 
@@ -146,14 +142,3 @@ app.post('/theater/:id/add-movie', async (req, res) => {
 })
 
 module.exports = app
-
-/* Does not work
-
-app.get('/movie/name/:name', async (req, res) => {
-    const movie = await movieService.loadByName(req.params.id)
-    res.send(movie)
-})
-*/
-
-//axios.post('/movie-Titans/people',{name:'Jim',age:33}).then(res=>console.log(res.data))
-// axios.delete('/movie-Titans/people/3').then(res=>console.log(res))

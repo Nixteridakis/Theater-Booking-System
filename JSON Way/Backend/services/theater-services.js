@@ -1,42 +1,55 @@
 const fs = require ('fs')
 const {parse, stringify} = require('flatted/cjs')
 
-const TheaterModel = require ('../models/theater')
-const MovieModel = require ('../models/movie')
-
-async function add(theater){
-    return TheaterModel.create(theater)
-} 
-
-async function addMovie(theaterId, movieId){
-    const theater = await TheaterModel.findOne({ _id: theaterId })
-    const movie = await MovieModel.findOne({ _id: movieId })
-
-    theater.movies.push(movie)
-    await theater.save()
-    return theater
+async function loadAll(){
+    return new Promise(resolve,reject) => {
+        fs.
+    }
 }
-
-async function findAll(){
-    return TheaterModel.find().populate('movies')
-} 
-
-async function loadById(theaterId){
-    return TheaterModel.findOne({ _id: theaterId }).populate('movies')
+/*
+async function loadMovie(file){
+    return new Promise((resolve,reject) => {
+        fs.readFile(`./movie_${file}.json`, 'utf8' , (err,file) => {
+            if (err) throw err
+            const data = parse(file)
+            const movie = Movie.create(data)
+          resolve (movie)
+        })
+    })
 }   
 
-async function deleteTheater(theaterId){
-   return TheaterModel.remove({_id: theaterId})
+async function loadPerson(movie, person){
+    const curr_movie = await loadMovie(movie)
+    const curr_person = curr_movie.audience[person-1]
+    return curr_person
 }   
-async function deleteAll(){
-    return TheaterModel.remove()
- }   
 
-module.exports = {
-    add,
-    addMovie,
-    findAll,
-    loadById,
-    deleteAll,
-    deleteTheater
+async function addPerson(movie, person){
+    const curr_movie = await loadMovie(movie)
+    const last_person = curr_movie.audience[curr_movie.audience.length-1]
+    const last_id = last_person.id && last_person.id || 0
+    person.id = last_id + 1
+
+    const newPerson = Person.create(person)
+    curr_movie.audience.push(newPerson)
+    await save(curr_movie)
+    return curr_movie
+}   
+
+async function del(movie, personId){
+   const curr_movie = await loadMovie(movie)
+   const personIndex = curr_movie.audience.findIndex((index)=> index.id == personId)
+   curr_movie.audience.splice(personIndex, 1)
+   
+   save(curr_movie)
 }
+
+async function save(data){
+    return new Promise((resolve, reject) => {
+        let path = `movie_${data.name}.json`
+        fs.writeFile(`${path}`,stringify(data),(err) => {
+            if (err) throw err
+            })
+    })        
+}
+*/

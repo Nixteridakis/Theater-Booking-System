@@ -27,19 +27,19 @@ export default new Vuex.Store({
   },
   actions: {
     async fetchTheaters({commit}){
-      const theaters = await axios.get('http://localhost:3000/theaters')
+      const theaters = await axios.get('http://localhost:4000/theaters')
       commit('registerTheaters', theaters.data)
     },
     async fetchMovies({commit}){
-      const movies = await axios.get('http://localhost:3000/movies')
+      const movies = await axios.get('http://localhost:4000/movies')
       commit('registerMovies', movies.data)
     },
     async fetchAttendees({commit}){
-      const attendees = await axios.get('http://localhost:3000/people')
+      const attendees = await axios.get('http://localhost:4000/people')
       commit('registerAttendees', attendees.data)
     },
     async fetchShop({commit}){
-      const shop = await axios.get('http://localhost:3000/shop')
+      const shop = await axios.get('http://localhost:4000/shop')
       commit('registerShop', shop.data)
     },
     async addAttendee({commit}, data ){

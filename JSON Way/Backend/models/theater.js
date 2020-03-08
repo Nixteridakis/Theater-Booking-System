@@ -4,13 +4,10 @@ module.exports = class Theater {
       this.name = name
       this.totalSales = totalSales
       this.image =  image
-      this.movies = []
+      this.movies = [],
+      this.id = null
     }
     
-    static sales(Theater){
-      console.log (chalk.blue(`The total sales of ${Theater.name} is $${Theater.totalSales}`))
-    }
-
     static add(theater,price){
       theater.totalSales += price
     }

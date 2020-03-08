@@ -45,3 +45,5 @@ npm run serve<br />
 <br />
 This project is being developed soon to run with Docker
 
+## JSON way  <br />
+In progress
